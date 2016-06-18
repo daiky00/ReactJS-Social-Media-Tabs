@@ -2,7 +2,7 @@
 
 Made this to follow https://dribbble.com/christophekerebel Example  :fire:
 
-  ###Getting Started :bulb:
+###Getting Started :bulb:
 
   To get this repo install in your localhost do the following :octocat:
   ```
