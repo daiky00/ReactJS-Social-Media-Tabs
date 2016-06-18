@@ -1,0 +1,133 @@
+@import '../../styles/variables';
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+
+.wrap {
+  background: $white;
+  border-radius: $border-radius;
+  box-shadow: 10px 10px 30px $black;
+  max-width: $max-content-width;
+  color: $white;
+  min-height: 650px;
+  position: relative;
+}
+
+.content {
+  border-radius: $border-radius;
+  padding: $padding-wrapper;
+}
+
+.home {
+  background: $white;
+  color: $purple;
+
+  .link:hover {
+    border: 2px solid $purple;
+  }
+
+}
+
+.dribbble {
+  background: $pink;
+
+  .active {
+    color: $pink;
+  }
+}
+
+
+.behance {
+  background: $blue;
+
+  .active {
+    color: $blue;
+  }
+}
+
+
+.linkedin {
+  background: $dark-blue;
+
+  .active {
+    color: $dark-blue;
+  }
+}
+
+.twitter {
+  background: $light-blue;
+
+  .active {
+    color: $light-blue;
+  }
+}
+
+.instagram {
+  background: $light-purple;
+
+  .active {
+    color: $light-purple;
+  }
+}
+
+.vimeo {
+  background: $black;
+
+  .active {
+    color: $black;
+  }
+}
+
+.ul {
+  list-style-type: none;
+  position: relative;
+  left: -22px;
+  padding: 0;
+}
+
+.link {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 1.8rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: .3rem;
+  text-align: center;
+  display: inline-block;
+  color: inherit;
+}
+
+.li {
+  display: inline-block;
+  margin-right: 2.2rem;
+}
+
+.li:nth-child(1) {
+  display: none;
+}
+
+.goback {
+  color: $white;
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.active {
+  background: $white;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 992px) {
+
+  .ul {
+    text-align: center;
+  }
+  .content {
+    padding: $padding-wrapper-tablet;
+  }
+}
+
+
